@@ -1,9 +1,13 @@
 {
-  "name": "hexo-site",
+  "name": "kfwong.com",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.8.0"
+  },
+  "scripts": {
+    "prestart": "hexo clean && hexo generate",
+    "start": "hexo server"
   },
   "dependencies": {
     "hexo": "^3.8.0",
