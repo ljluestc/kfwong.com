@@ -6,5 +6,8 @@ node_modules/
 public/
 .deploy*/
 .gitsecret/keys/random_seed
-!*.secret
 .secrets/*
+!.secrets/*.secret
+**/.terraform/*
+*.tfstate
+*.tfstate.*
