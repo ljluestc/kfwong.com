@@ -37,7 +37,7 @@ resource "netlify_deploy_key" "key" {}
 # Define your site
 resource "netlify_site" "main" {
   name          = "kfwong-com"
-  custom_domain = "kfwong.com"
+  custom_domain = "www.kfwong.com"
 
   repo {
     repo_branch   = "master"
