@@ -146,3 +146,11 @@ baidu_analytics:
 # logo and/or favicons of you website.
 gravatar:
   email: #
+
+# Enable Utterances comments.
+utterances:
+  enabled: true
+  repo: kfwong/kfwong.com
+  issue_term: title
+  label: 💬 Comments 💬
+  theme: icy-dark
